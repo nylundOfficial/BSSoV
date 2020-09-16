@@ -1,0 +1,41 @@
+dataset:
+  script_path: ../datasets/datasets.py
+model:
+  script_path: ../models/example.py
+optimizer:
+  script_path: ../optimizers/example.py
+  initial_lr: 0.0000 
+train:
+  script_path: ../train/example.py
+  artifacts_path: ../artifacts/train/example.py
+  batch_size: 00
+  epochs: 00000
+  data_augmentation:
+    samplewise_center: False
+    samplewise_std_normalization: False
+    rotation_range: 0
+    width_shift_range: 0.0
+    height_shift_range: 0.0
+    horizontal_flip: True
+    vertical_flip: False
+    zoom_range: 0
+    shear_range: 0
+    channel_shift_range: 0
+    featurewise_center: False
+    zca_whitening: False
+evaluate:
+  batch_size: 0000
+  augmentation_factor: 00
+  data_augmentation:
+    samplewise_center: False
+    samplewise_std_normalization: False
+    rotation_range: 0
+    width_shift_range: 0.0
+    height_shift_range: 0.0
+    horizontal_flip: True
+    vertical_flip: False
+    zoom_range: 0
+    shear_range: 0
+    channel_shift_range: 0
+    featurewise_center: False
+    zca_whitening: False
